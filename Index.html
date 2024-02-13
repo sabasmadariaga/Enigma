@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enigma</title>
+    <script src="funciones.js" defer></script>
+    <script src="funciones.js"></script>
+    <link rel="icon" href="imagenes/Maquina.png">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header style="background-image: url('imagenes/bgh.jpg');">
+        <div>
+            <h1 class="logo">
+                <img src="imagenes/Logo.png">
+            </h1>
+            <nav>                                    
+                <a href="instrucciones.html">Instrucciones</a>                   
+            
+            </nav>
+        </div>           
+    </header>
+    <main>
+        <div class="contGral">
+            <div class="colIzq">
+            <label for="texto">Inserte mensaje:</label><br>
+                <textarea id="mensaje" class="input-padron" onkeyup="validarMensaje()" required></textarea>
+                <p id="mensajeError" style="color: red;"></p>              
+            </div>
+            <div class="colDer">
+                <label for="resultado">Resultado:</label><br>
+                <textarea id="resultado"  class="input-padron" readonly></textarea>
+            </div>
+        </div>    
+        <div class="container">
+            <button class="butCont" onclick="encriptar()">Cifrar</button>
+            <button class="butCont" onclick="desencriptar()">Descifrar</button>
+            <button class="butCont" onclick="limpiar()">Limpiar</button>
+            <button class="copy" onclick="copyMsg()">Copiar</button>
+        </div>          
+                
+    </main>
+    
+    <footer style="background-image: url('imagenes/bgf.jpg');">
+        <p class="pie">
+        &copy Copyright Sabas Madariaga - 2024
+        </p>       
+    </footer>
+   
+    
+    
+   
+    
+</body>
+</html>

@@ -1,0 +1,124 @@
+header {
+    background-size: contain;
+    display: flex;
+    width: 100%;
+    position: sticky;
+    padding: 0;
+    
+    }
+header img {
+    max-width: 30%; 
+    } 
+nav{
+    position: absolute;
+    top: 35%;
+    right: 20px;
+    }    
+nav a{
+    text-transform: uppercase;
+    color: yellow;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 70px 200px;
+    }  
+nav a:hover{
+        color: hsl(354, 100%, 50%);
+        text-decoration: underline;
+    }    
+.logo{
+    margin: 15px 15px;   
+}   
+body{
+    margin: 0;
+    background-color: rgb(214, 233, 242);
+}
+label{
+    margin: 10px;
+}
+.contGral{
+    display: flex;
+    margin: 20px 70px 20px 50px;
+    overflow: auto;
+    width: 350%;
+        
+}
+.colIzq, .colDer {
+    width: 15%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+.butCont{
+    
+    width: 8%;
+    display: inline-block;
+    border-color: greenyellow;
+    margin: 20px 25px;
+    font-size: 16px;
+    padding: 10px 20px;
+    vertical-align: top;
+}
+  
+.copy{
+    display: inline-block;
+    margin: 20px 410px;
+    width: 8%;
+    vertical-align: top;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-color: greenyellow;
+}
+
+
+footer{
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background-size: contain;
+} 
+
+.pie{
+    color: white;
+    font-size: 15px;
+    margin: 20px;
+    
+    
+}
+footer p:hover{
+    color: hwb(0 0% 100%);
+    text-decoration: underline;
+    }
+.input-padron{
+    width: 50%;
+    height: 200px; 
+    resize: none;
+    margin-right: 10px;
+    
+    
+    
+}
+.instruccionesTitulo{
+    margin: 50px 500px;
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+}
+.volver{
+    width: 130px;
+    margin: 50px 530px;
+    border-color: greenyellow;
+    font-size: 16px;
+    padding: 10px 20px;
+    vertical-align: top;
+    }
+.instruccionesLista{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 10px;
+}    
+    
+
+
